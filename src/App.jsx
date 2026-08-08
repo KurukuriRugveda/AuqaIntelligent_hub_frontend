@@ -60,7 +60,7 @@ const SIMULATED_UPLOADS = [
 
 const RAW_API_URL =
   import.meta.env.VITE_API_BASE_URL ||
-  'https://auqaintelligent-hub-backend.onrender.com';
+  'https://auqaintelligent-hub-backend.onrender.com/api';
 
 const API_BASE_URL = RAW_API_URL.replace(/\/+$/, '');
 
