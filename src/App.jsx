@@ -58,7 +58,10 @@ const SIMULATED_UPLOADS = [
   { id: 'temp-sales-002', name: 'Sales Invoice - INV-9089 (Missing Health Cert)', type: DOCUMENT_TYPES.SALES }
 ];
 
-const RAW_API_URL = import.meta.env.VITE_API_BASE_URL || 'https://fisheries-intelligent-hub-1.onrender.com/api';
+const RAW_API_URL =
+  import.meta.env.VITE_API_BASE_URL ||
+  'https://auqaintelligent-hub-backend.onrender.com';
+
 const API_BASE_URL = RAW_API_URL.replace(/\/+$/, '');
 
 export default function App() {
