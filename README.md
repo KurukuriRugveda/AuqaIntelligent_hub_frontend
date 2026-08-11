@@ -13,7 +13,6 @@ This is the frontend application for the Aqua Intelligent Hub, built with React 
 - **Date Formatting**: date-fns
 - **Linting**: oxlint
 
-## Getting Started
 
 ### Prerequisites
 
